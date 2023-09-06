@@ -5,16 +5,28 @@ body {
 
 .section-one {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.section-one a {
-    color: #E5E7EB;
-    font-size: 18px;
-    text-decoration: none;
-    padding-right: 65px;
+.solucion-caverna {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1200px;
+}
+
+.top-navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 100px;
 }
 
 .logo {
@@ -26,29 +38,11 @@ body {
     gap: 15px;
 }
 
-.top-navbar {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.section-one  h2 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FaF8;
-}
-
-.section-one p {
-    font-size: 18px;
+.top-navbar a {
     color: #E5E7EB;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 65px;
 }
 
 .left-side {
@@ -57,7 +51,20 @@ body {
     flex-basis: 500px;
 }
 
-.left-side h2 {
+.section-one  h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
     margin: 0;
 }
+
+.section-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
 
