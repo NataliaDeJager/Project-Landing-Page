@@ -185,3 +185,17 @@ body {
     border: #3882F6 1px solid;
     cursor: pointer;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #F9FaF8;
+    margin: 35px;
+}
