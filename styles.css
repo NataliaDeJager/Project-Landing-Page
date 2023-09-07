@@ -117,3 +117,28 @@ body {
     font-size: 18px;
     color: #1F2937;
 }
+
+/* Section Three */
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.phrase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.phrase-container p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.phrase-container h2 {
+    margin: 0 0 0 auto;
+}
